@@ -1,3 +1,4 @@
 #!/bin/bash
 
-/usr/sbin/murmurd -ini /etc/mumble-server.ini -fg -v
+service mumble-server start
+tail -f /var/log/mumble-server/mumble-server.log
