@@ -1,4 +1,5 @@
 #!/bin/bash
 
+chown -R mumble-server:mumble-server /opt/mumble
 sleep 2
-sudo -u mumble-server /usr/local/sbin/murmurd -ini /etc/mumble-server.ini -fg -v
+sudo -u mumble-server /usr/sbin/murmurd -ini /opt/mumble/mumble-server.ini -fg -v
