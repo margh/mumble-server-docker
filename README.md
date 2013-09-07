@@ -7,7 +7,6 @@ Usage
     $ sudo docker build .
     $ sudo docker images
     $ sudo docker run -d -p :64738 -p :64738/udp <image ID from previous command>
-    (Now inside the container)
 
 Problems
 ========
