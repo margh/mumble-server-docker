@@ -6,5 +6,5 @@ Usage
     $ cd mumble-server-docker/
     $ sudo docker build .
     $ sudo docker images
-    Edit start-container.sh to include your container ID and desired external port number
+    Edit start-container.sh to include your container ID, desired external port number, and superuser password
     $ sudo ./start-container.sh
