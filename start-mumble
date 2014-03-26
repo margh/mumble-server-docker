@@ -1,10 +1,4 @@
 #!/bin/bash
-
-INI_PATH=/opt/mumble/mumble-server.ini
-
 chown -R mumble-server:mumble-server /opt/mumble
 sleep 2
-if [ -n "$SUPERUSER_PASSWORD" ]; then
-    /usr/sbin/murmurd -ini $INI_PATH -supw $SUPERUSER_PASSWORD
-fi
-/usr/sbin/murmurd -ini $INI_PATH -fg -v
+/usr/sbin/murmurd -ini /opt/mumble/mumble-server.ini -fg -v
