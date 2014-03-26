@@ -1,3 +1,2 @@
 #!/bin/bash
-sudo chown -R mumble-server:mumble-server /var/lib/murmur/ /var/log/murmur/ 
 /usr/sbin/murmurd -ini /etc/mumble-server.ini -fg -v
