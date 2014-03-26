@@ -1,4 +1,2 @@
 #!/bin/bash
-chown -R mumble-server:mumble-server /opt/mumble
-sleep 2
 /usr/sbin/murmurd -ini /opt/mumble/mumble-server.ini -fg -v
