@@ -3,7 +3,7 @@ Mumble server (murmurd) running in a Docker container
 Usage
 =====
 
-Edit the ENV lines for your passwords and users. These will be written over the defaults in the murmur ini.
+Edit the ENV lines in the Dockerfile for your passwords and users. These will be written over the defaults in the murmur ini.
 
     $ sudo docker build .
     $ sudo docker images
